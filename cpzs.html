@@ -1,14 +1,14 @@
 <!doctype html>
 <html>
 <head>
-<meta charset="utf-8">
-<title>[!--pagetitle--] - [!--class.name--] - <?=$public_r[sitename]?></title>
-<meta name="keywords" content="[!--pagekey--]" />
-<meta name="description" content="[!--pagedes--]" />
-<link href="css/master.css" type="text/css" rel="stylesheet" />
-<link href="css/base.css" type="text/css" rel="stylesheet" />
-<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
-<script type="text/javascript" src="js/jquery.SuperSlide.2.1.1.js"></script>
+    <meta charset="utf-8">
+    <title>帝豪装饰</title>
+    <meta name="keywords" content="[!--pagekey--]"/>
+    <meta name="description" content="[!--pagedes--]"/>
+    <link href="css/master.css" type="text/css" rel="stylesheet"/>
+    <link href="css/base.css" type="text/css" rel="stylesheet"/>
+    <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="js/jquery.SuperSlide.2.1.1.js"></script>
 </head>
 
 
@@ -16,219 +16,134 @@
 
 <!--头部-->
 <div class="head">
-	<div class="block yh f13">
-    	<p class="tright"><a onclick="SetHome(window.location)" href="javascript:void(0)" class="pl10 pr10">设为首页</a> | <a onclick="AddFavorite(window.location,document.title)" href="javascript:void(0)" class="pl10 pr10">加入收藏</a></p>
-    
-   <div class="box position_a clearfix">     
-   <!--导航-->
-   <div class="nav fleft ofHidden">
-       <ul>
-           <li><a href="">首页</a></li>
-           <li><a href="gsjj.html">公司简介</a></li>
-           <li><a href="xwzx.html">新闻中心</a></li>
-           <li><a href="cpzs.html">产品展示</a></li>
-           <li><a href="">成功案例</a></li>
-           <li><a href="zxly.htmll">在线留言</a></li>
-           <li><a href="">联系我们</a></li>
-           <li><a href="">资质荣誉</a></li>
-       </ul>
-   </div>
-        
-        <!--搜索-->
-        <form name="searchform" method="post" action="/e/search/index.php" class="ss ofHidden">
-        <input name='ecmsfrom' type='hidden' value='9'>
-        <input type="hidden" name="show" value="title,newstext">
-        <input class="index_srh" name="keyboard" placeholder="请输入关键字" >
-        <input class="search" type="submit" name="submit" value="搜索">
-        </form>
+    <div class="block yh f13">
+        <p class="tright"><a onclick="SetHome(window.location)" href="javascript:void(0)" class="pl10 pr10">设为首页</a> |
+            <a onclick="AddFavorite(window.location,document.title)" href="javascript:void(0)"
+               class="pl10 pr10">加入收藏</a></p>
+
+        <div class="box position_a clearfix">
+            <!--导航-->
+            <div class="nav fleft ofHidden">
+                <ul>
+                    <li><a href="index.html">首页</a></li>
+                    <!--<li><a href="gsjj.html">公司简介</a></li>-->
+                    <!--<li><a href="xwzx.html">新闻中心</a></li>-->
+                    <li><a href="cpzs.html">产品展示</a></li>
+                    <!--<li><a href="">成功案例</a></li>-->
+                    <!--<li><a href="zxly.htmll">在线留言</a></li>-->
+                    <li><a href="">联系我们</a></li>
+                    <!--<li><a href="">资质荣誉</a></li>-->
+                </ul>
+            </div>
+
+            <!--&lt;!&ndash;搜索&ndash;&gt;-->
+            <!--<form name="searchform" method="post" action="/e/search/index.php" class="ss ofHidden">-->
+            <!--<input name='ecmsfrom' type='hidden' value='9'>-->
+            <!--<input type="hidden" name="show" value="title,newstext">-->
+            <!--<input class="index_srh" name="keyboard" placeholder="请输入关键字" >-->
+            <!--<input class="search" type="submit" name="submit" value="搜索">-->
+            <!--</form>-->
+        </div>
+
     </div>
-    
-    </div>
-    
+
 </div>
 
 <!--幻灯片-->
 <div class="fullSlide list_hd">
-		<div class="bd">
-			<ul>
-			<li style="background:url(images/banner.jpg) #FFF center 0 no-repeat;"><a target="_blank" href="#"></a></li>
-			<li style="background:url(images/banner2.jpg) #FFF center 0 no-repeat;"><a target="_blank" href="#"></a></li>
-			<li style="background:url(images/banner.jpg) #FFF center 0 no-repeat;"><a target="_blank" href="#"></a></li>
-			<li style="background:url(images/banner2.jpg) #FFF center 0 no-repeat;"><a target="_blank" href="#"></a></li>
-			<li style="background:url(images/banner.jpg) #FFF center 0 no-repeat;"><a target="_blank" href="#"></a></li>
-			</ul>
-		</div>
+    <div class="bd">
+        <ul>
+            <li style="background:url(images/banner.jpg) #FFF center 0 no-repeat;"><a target="_blank" href="#"></a></li>
+            <li style="background:url(images/banner2.jpg) #FFF center 0 no-repeat;"><a target="_blank" href="#"></a>
+            </li>
+            <li style="background:url(images/banner.jpg) #FFF center 0 no-repeat;"><a target="_blank" href="#"></a></li>
+            <li style="background:url(images/banner2.jpg) #FFF center 0 no-repeat;"><a target="_blank" href="#"></a>
+            </li>
+            <li style="background:url(images/banner.jpg) #FFF center 0 no-repeat;"><a target="_blank" href="#"></a></li>
+        </ul>
+    </div>
 
-		<div class="hd"><ul></ul></div>
-	</div>  
+    <div class="hd">
+        <ul></ul>
+    </div>
+</div>
 
 
 <!--图片列表页主体-->
 <div class="newsbox yh">
-    	<div class="block">
-        	<div class="navmenu"><span>您现在的位置: <a href="#">设计工程</a> > 精品工程</span>精品工程</div>
-            
-<div class="pic_list">
-    <ul class="clearfix">
-      <li>
-        <div class="photo yh"><img src="images/pic3.jpg" />
-          <p>黄金海岸设计图</p>
-        </div>
-        <div class="rsp"></div>
-        <div class="text"><a href="">
-          <h3>黄金海岸设计图</h3>
-          <p>这里是具体的简介这里是具体的简介这里是具体的简介这里是具体的简介...</p>
-          <div>TIME :2014.02.21</div>
-          </a></div>
-      </li>
-      <li>
-        <div class="photo yh"><img src="images/pic3.jpg" />
-          <p>黄金海岸设计图</p>
-        </div>
-        <div class="rsp"></div>
-        <div class="text"><a href="">
-          <h3>黄金海岸设计图</h3>
-          <p>这里是具体的简介这里是具体的简介这里是具体的简介这里是具体的简介...</p>
-          <div>TIME :2014.02.21</div>
-          </a></div>
-      </li>
-      <li>
-        <div class="photo yh"><img src="images/pic3.jpg" />
-          <p>黄金海岸设计图</p>
-        </div>
-        <div class="rsp"></div>
-        <div class="text"><a href="">
-          <h3>黄金海岸设计图</h3>
-          <p>这里是具体的简介这里是具体的简介这里是具体的简介这里是具体的简介...</p>
-          <div>TIME :2014.02.21</div>
-          </a></div>
-      </li>
-      <li>
-        <div class="photo yh"><img src="images/pic3.jpg" />
-          <p>黄金海岸设计图</p>
-        </div>
-        <div class="rsp"></div>
-        <div class="text"><a href="">
-          <h3>黄金海岸设计图</h3>
-          <p>这里是具体的简介这里是具体的简介这里是具体的简介这里是具体的简介...</p>
-          <div>TIME :2014.02.21</div>
-          </a></div>
-      </li>
-      <li>
-        <div class="photo yh"><img src="images/pic3.jpg" />
-          <p>黄金海岸设计图</p>
-        </div>
-        <div class="rsp"></div>
-        <div class="text"><a href="">
-          <h3>黄金海岸设计图</h3>
-          <p>这里是具体的简介这里是具体的简介这里是具体的简介这里是具体的简介...</p>
-          <div>TIME :2014.02.21</div>
-          </a></div>
-      </li>
-      <li>
-        <div class="photo yh"><img src="images/pic3.jpg" />
-          <p>黄金海岸设计图</p>
-        </div>
-        <div class="rsp"></div>
-        <div class="text"><a href="">
-          <h3>黄金海岸设计图</h3>
-          <p>这里是具体的简介这里是具体的简介这里是具体的简介这里是具体的简介...</p>
-          <div>TIME :2014.02.21</div>
-          </a></div>
-      </li>
-      <li>
-        <div class="photo yh"><img src="images/pic3.jpg" />
-          <p>黄金海岸设计图</p>
-        </div>
-        <div class="rsp"></div>
-        <div class="text"><a href="">
-          <h3>黄金海岸设计图</h3>
-          <p>这里是具体的简介这里是具体的简介这里是具体的简介这里是具体的简介...</p>
-          <div>TIME :2014.02.21</div>
-          </a></div>
-      </li>
-      <li>
-        <div class="photo yh"><img src="images/pic3.jpg" />
-          <p>黄金海岸设计图</p>
-        </div>
-        <div class="rsp"></div>
-        <div class="text"><a href="">
-          <h3>黄金海岸设计图</h3>
-          <p>这里是具体的简介这里是具体的简介这里是具体的简介这里是具体的简介...</p>
-          <div>TIME :2014.02.21</div>
-          </a></div>
-      </li>
-      <li>
-        <div class="photo yh"><img src="images/pic3.jpg" />
-          <p>黄金海岸设计图</p>
-        </div>
-        <div class="rsp"></div>
-        <div class="text"><a href="">
-          <h3>黄金海岸设计图</h3>
-          <p>这里是具体的简介这里是具体的简介这里是具体的简介这里是具体的简介...</p>
-          <div>TIME :2014.02.21</div>
-          </a></div>
-      </li>
-      <li>
-        <div class="photo yh"><img src="images/pic3.jpg" />
-          <p>黄金海岸设计图</p>
-        </div>
-        <div class="rsp"></div>
-        <div class="text"><a href="">
-          <h3>黄金海岸设计图</h3>
-          <p>这里是具体的简介这里是具体的简介这里是具体的简介这里是具体的简介...</p>
-          <div>TIME :2014.02.21</div>
-          </a></div>
-      </li>
-      <li>
-        <div class="photo yh"><img src="images/pic3.jpg" />
-          <p>黄金海岸设计图</p>
-        </div>
-        <div class="rsp"></div>
-        <div class="text"><a href="">
-          <h3>黄金海岸设计图</h3>
-          <p>这里是具体的简介这里是具体的简介这里是具体的简介这里是具体的简介...</p>
-          <div>TIME :2014.02.21</div>
-          </a></div>
-      </li>
-      <li>
-        <div class="photo yh"><img src="images/pic3.jpg" />
-          <p>黄金海岸设计图</p>
-        </div>
-        <div class="rsp"></div>
-        <div class="text"><a href="">
-          <h3>黄金海岸设计图</h3>
-          <p>这里是具体的简介这里是具体的简介这里是具体的简介这里是具体的简介...</p>
-          <div>TIME :2014.02.21</div>
-          </a></div>
-      </li>
-    </ul>
-    
-    <div class="page clearfix"><a href="" class="on">1</a><a href="">2</a><a href="">3</a><a href="">>></a></div>
-    
-  </div>	
-    
-  </div>
-  </div>  
-    
+    <div class="block">
+        <div class="navmenu"><span>您现在的位置: <a href="index.html">帝豪装饰</a> > 产品展示</span></div>
+        <div class="pic_list">
+            <ul class="clearfix">
+                <script>
 
-        
-        
-<div class="foot clearfix">
-	<div class="block">
-        <div class="fleft">
-            <p><a href="" class="a1">联系我们</a>|<a href="" class="a2">公司诚聘</a>|<a href="" class="a3">合作伙伴</a>|<a href="" class="a4">网站地图</a></p>
-            <p>Copyright © 2014-2015 www.haiis.com,All Rights Reserved 来源:<a href="http://www.mycodes.net/" target="_blank">源码之家</a></p>
-            <p>版权所有  淮安澍天装饰工程有限公司</p>
+                    var imageUrl = new Array();
+                    var imageTitles = new Array();
+                    var title = "";
+                    for(var j = 1;j<=50;j++){
+                        imageUrl[j-1] = "images/image2/1 ("+j+").jpg";
+                        if (j<=6){
+                            title = "个性设计餐厅"
+                        }else if (j>6&&j<=9){
+                            title = "后现代餐厅"
+                        }else if (j>9&&j<=12){
+                            title = "后现代客厅"
+                        }else if (12<j&&j<=14){
+                            title = "混搭风格客厅"
+                        }else if (14<j&&j<=21){
+                            title = "简约欧式餐厅"
+                        }else if (21<j&&j<=25){
+                            title = "空中花园"
+                        }else if (25<j&&j<=29){
+                            title = "欧式餐厅"
+                        }else if (29<j&&j<=31){
+                            title = "田园风格"
+                        }else if (31<j&&j<=45){
+                            title = "现代简约"
+                        }else if (45<j&&j<=50){
+                            title = "中式风格"
+                        }
+                        imageTitles[j-1] = title;
+                    }
+                    for (var i = 0; i < 50; i++) {
+                        document.write("<li><div class=\"photo yh\">");
+                        document.write("<img src=\"" + imageUrl[i] + "\"/>");
+                        document.write("<p>" + imageTitles[i] + "</p>");
+                        document.write("</div></li>");
+                    }
+
+                </script>
+
+
+            </ul>
+
+            <div class="page clearfix"><a href="" class="on">1</a><a href="">2</a><a href="">3</a><a href="">>></a>
+            </div>
+
         </div>
-        
+
+    </div>
+</div>
+
+
+
+<div class="foot clearfix">
+    <div class="block">
+        <div class="fleft">
+            <p><a href="" class="a1">联系我们</a></p>
+            <p>Copyright © 2014-2015 www.haiis.com,All Rights Reserved </p>
+            <p>版权所有 安徽帝豪装饰</p>
+        </div>
+
         <div class="fright">
-        	<p class="p1">装修热线：0517-85158777</p>
-            <p class="p2">邮箱：2079491718@qq.com</p>
+            <p class="p1">电话：18255134434</p>
+            <p class="p2">邮箱：459145932@qq.com</p>
         </div>
     </div>
-</div>    
+</div>
 
 <script src="js/all.js" type="text/javascript"></script>
+
+
 </body>
 </html>
