@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 
-.head{ background:url(../images/head_logo.jpg) no-repeat center top; }
+.head{ background:url(../images/head_logo.png) no-repeat center top; }
 .head .block{position:relative;}
 .head p{ height:97px; overflow:hidden;}
 .head p a{ color:#707070}
@@ -100,8 +100,8 @@
 .foot .fleft a.a1{ padding-left:0;}
 .foot .fright { width:30%;}
 .foot .fright p{ padding-left:25px;}
-.foot .fright p.p1{ background:url(../images/zxrx.png) no-repeat left center;}
-.foot .fright p.p2{ background:url(../images/yx.png) no-repeat left center;}
+/*.foot .fright p.p1{ background:url(../images/zxrx.png) no-repeat left center;}*/
+/*.foot .fright p.p2{ background:url(../images/yx.png) no-repeat left center;}*/
 
 /* 图片列表页 */
 .snav{ height:40px; line-height:40px; color:#FFF; margin-top:10px !important; font-size:13px; background:#4a4a4a; letter-spacing:2px;}
